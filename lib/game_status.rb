@@ -53,8 +53,8 @@ end
 def over?(board)
   win = won?(board)
   draw = draw?(board)
-  if win != false && draw == true
+  if win != false || draw == true
     return true
   end
   return false
-end 
+end
