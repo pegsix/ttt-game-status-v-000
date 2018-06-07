@@ -59,7 +59,7 @@ def over?(board)
   return false
 end
 
-def winner?(board)
+def winner(board)
  winner_index = won?(board)[0]
  puts winner_index
  winner = board[winner_index]
