@@ -43,9 +43,7 @@ end
 
 def draw?(board)
   win = won?(board)
-  puts win
   full = full?(board)
-  puts full
   if win==false && full==true
     return true
   end
