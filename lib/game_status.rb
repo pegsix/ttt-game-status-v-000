@@ -61,7 +61,8 @@ end
 
 def winner(board)
  winner_index = won?(board)[0]
- puts winner_index
- winner = board[winner_index]
+ if winner = board[winner_index]
   return winner
+  else 
+  return nil
 end
