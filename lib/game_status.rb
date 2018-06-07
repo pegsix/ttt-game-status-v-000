@@ -60,10 +60,11 @@ def over?(board)
 end
 
 def winner(board)
- winner_index = won?(board)[0]
-  if winner = board[winner_index]
-   return winner
+  if != won?(board)
+   return nil
   else
-    return nil
+   winner_index = won?(board)[0]
+   winner = board[winner_index]
+   return winner
   end
 end
