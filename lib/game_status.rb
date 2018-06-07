@@ -42,7 +42,7 @@ def won?(board)
 end
 
 def draw?(board)
-  win = win?(board)
+  win = won?(board)
   puts win
   full = full?(board)
   puts full 
