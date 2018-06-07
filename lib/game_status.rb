@@ -33,6 +33,7 @@ def won?(board)
     else
       return "draw"
     end
-  end
-  false
+    return false
 end
+
+
