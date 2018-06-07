@@ -20,7 +20,9 @@ def full?(board)
   if board.include?(" ") == true
     return false
   else
-    return true   
+    return true
+  end  
+end
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
